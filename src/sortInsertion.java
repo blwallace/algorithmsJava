@@ -4,7 +4,7 @@
     // high level pseudocode.
     // A = unsorted input
     // n = length of A
-    // for i = 2 to n
+    // for i = 2 to next                    // loop through array, starting at SECOND position. (A[1] in java)
     //    key = A[i]                        // key will look back on sorted list and insert
     //    j = i - 1                         // j is a tracker.  used to look back on elements in array
     //    while j > 0 & key > A[j]          // if we haven't reached the end and the key is smaller
@@ -39,5 +39,4 @@ public class sort_insertion {
             System.out.println(array[i]);
         }
     }
-
 }
